@@ -1,4 +1,5 @@
 import path from "path";
+import webpack from "webpack";
 
 export default {
   debug: true,
@@ -13,9 +14,9 @@ export default {
   },
   plugins: [
     //Eliminate duplicate packages when generating bundle
-    new webpackConfigDev.optimize.DedupePlugin()
+    new webpack.optimize.DedupePlugin(),
     //Minify JS
-    new webpackConfigDev.optimize.UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
     loaders: [
