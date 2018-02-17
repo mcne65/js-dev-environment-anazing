@@ -22,6 +22,7 @@ A Javascript starter kit I built from scratch, using the ES6 modular architectur
 * Automated Deployment, separating API and IU
 * Working Example app
 * Sharing work in progress
+* Error Tracking
 
 ...with chosen corresponding technologies and libraries.
 
@@ -38,6 +39,7 @@ A Javascript starter kit I built from scratch, using the ES6 modular architectur
 * JSDOM
 * Mocha
 * Chai
+* TrackJS
 * Node Security Platform
 * Express
 * Local Tunnel
